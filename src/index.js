@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	  if (text !== "") {
 
-		const newInput = document.createElement("p");
+		const newInput = document.createElement("li");
 		newInput.textContent = text;
 
 		taskString.appendChild(newInput);
